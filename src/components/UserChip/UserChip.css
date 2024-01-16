@@ -1,0 +1,54 @@
+.chip {
+  display: flex;
+  align-items: center;
+  background-color: #e0e0e0;
+  border-radius: 16px;
+  padding: 5px 10px;
+  margin: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s;
+}
+
+.chip.highlighted {
+  background-color: #007bff; 
+  color: white;
+}
+
+.chip-image {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.chip-name {
+  margin-right: 10px;
+}
+
+.chip-email {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+.chip-remove-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: inherit; 
+  margin-left: auto; 
+  font-size: 18px;
+  line-height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  margin-left: 8px;
+  transition: background-color 0.3s;
+}
+
+.chip-remove-btn:hover {
+  background-color: #d0d0d0;
+  color: #333;
+}
